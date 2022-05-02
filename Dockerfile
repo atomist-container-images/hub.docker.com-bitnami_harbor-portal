@@ -1,12 +1,24 @@
-# Tags: latest, 2.5.0-debian-10-r19, 2.5.0, 2-debian-10, 2
+# Tags: latest, 2.5.0-debian-10-r23, 2.5.0, 2-debian-10, 2
 FROM bitnami/harbor-portal:latest
-FROM bitnami/harbor-portal:2.5.0-debian-10-r19
+FROM bitnami/harbor-portal:2.5.0-debian-10-r23
 FROM bitnami/harbor-portal:2.5.0
 FROM bitnami/harbor-portal:2-debian-10
 FROM bitnami/harbor-portal:2
 
 # Tags: _
 FROM bitnami/harbor-portal:_
+
+# Tags: 2.5.0-debian-10-r22
+FROM bitnami/harbor-portal:2.5.0-debian-10-r22
+
+# Tags: 2.5.0-debian-10-r21
+FROM bitnami/harbor-portal:2.5.0-debian-10-r21
+
+# Tags: 2.5.0-debian-10-r20
+FROM bitnami/harbor-portal:2.5.0-debian-10-r20
+
+# Tags: 2.5.0-debian-10-r19
+FROM bitnami/harbor-portal:2.5.0-debian-10-r19
 
 # Tags: 2.5.0-debian-10-r18
 FROM bitnami/harbor-portal:2.5.0-debian-10-r18
@@ -86,15 +98,3 @@ FROM bitnami/harbor-portal:2.4.2-debian-10-r18
 
 # Tags: 2.4.2-debian-10-r17
 FROM bitnami/harbor-portal:2.4.2-debian-10-r17
-
-# Tags: 2.4.2-debian-10-r16
-FROM bitnami/harbor-portal:2.4.2-debian-10-r16
-
-# Tags: 2.4.2-debian-10-r15
-FROM bitnami/harbor-portal:2.4.2-debian-10-r15
-
-# Tags: 2.4.2-debian-10-r13
-FROM bitnami/harbor-portal:2.4.2-debian-10-r13
-
-# Tags: 2.4.2-debian-10-r12
-FROM bitnami/harbor-portal:2.4.2-debian-10-r12
